@@ -79,3 +79,40 @@ main{
 #link-container a img{
     padding: 0.3rem;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #about-me-container h1{
+        font-size: 2rem;
+    }
+    #about-me-container p{
+        font-size: 1.2em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main{
+        width: 70%;
+    }
+    #about-me-container h1{
+        font-size: 2.5rem;
+    }
+    #about-me-container p{
+        font-size: 1.3em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    main{
+        width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main{
+        width: 40%;
+    }
+}
