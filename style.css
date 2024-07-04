@@ -16,3 +16,9 @@
     color: var(--white);    
 }
 
+body{
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
